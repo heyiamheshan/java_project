@@ -10,10 +10,18 @@ public class SimpleCalculation {
         return a - b;
     }
 
+    // New feature to multiply two numbers
+    public static int multiplyTwoNumbers(int a, int b) {
+        return a * b;
+    }
+
     public static void main(String[] args) {
         int resultAdd = addTwoNumbers(3, 5);
         int resultSubtract = subtractTwoNumbers(5, 3);
+        int resultMultiply = multiplyTwoNumbers(4, 6);  // New multiplication feature
+
         System.out.println("Addition result: " + resultAdd);
         System.out.println("Subtraction result: " + resultSubtract);
+        System.out.println("Multiplication result: " + resultMultiply);  // Print multiplication result
     }
 }
